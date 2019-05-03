@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edt_Kode" type="id" />
+    <item name="edt_Nama" type="id" />
+    <item name="edtAlamat" type="id" />
+    <item name="btntampildata" type="id" />
+    <item name="btnUpdate" type="id" />
+    <item name="btn_insertdata" type="id" />
+    <item name="btnhapus" type="id" />
+    <item name="tvAlamat" type="id" />
+    <item name="recyclerTemp" type="id" />
+</resources>

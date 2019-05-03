@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Kode Pasar" />
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":" />
+        <EditText
+            android:id="@+id/edt_kode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kode Pasar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama Pasar" />
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":" />
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Pasar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pasar" />
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":" />
+        <EditText
+            android:id="@+id/edtdomisili"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat Pasar" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bgbtn3"
+            android:id="@+id/btn_insertdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+        <Button
+            android:background="@drawable/bgbtn2"
+            android:layout_weight="1"
+            android:id="@+id/btntampildata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampil Data" />
+        <Button
+            android:background="@drawable/bgbtn4"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:visibility="gone" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnhapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgbtn"
+            android:text="Hapus"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
